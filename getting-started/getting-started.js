@@ -18,6 +18,5 @@ VGS.Event.subscribe("auth.sessionChange", function (data) {
 
 VGS.init({
     client_id: "52f8e3d9efd04bb749000000",
-    server: "stage.payment.schibsted.no",
-    prod: false
+    server: "identity-pre.schibsted.com"
 });
