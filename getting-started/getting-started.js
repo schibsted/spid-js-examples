@@ -1,6 +1,5 @@
 /*global SPiD*/
 
-
 SPiD.event.subscribe('SPiD.login', function(data) { console.log("SPiD.login", data); });
 SPiD.event.subscribe('SPiD.logout', function(data) { console.log("SPiD.logout", data); });
 SPiD.event.subscribe('SPiD.sessionChange', function(data) { console.log("SPiD.sessionChange", data); });
